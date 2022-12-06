@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -25,7 +26,7 @@ const Home: NextPage = () => {
             <h2 className='offert-title'>Notre offre la plus rentable</h2>
             <p className="offert-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, doloremque!</p>
           </div>
-          <a href="/">En savoir plus</a>
+          <Link href='/'>En savoir plus</Link>
         </section>
         <section className="news">
           <div className='news-container'>
