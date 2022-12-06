@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         </section>
         <section className='offert'>
           <div className='offert-container'>
-            <h2 className='offert-title'>Une offre incroyable</h2>
+            <h2 className='offert-title'>Notre offre la plus rentable</h2>
             <p className="offert-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, doloremque!</p>
           </div>
           <a href="/">En savoir plus</a>
